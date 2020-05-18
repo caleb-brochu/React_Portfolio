@@ -1,0 +1,45 @@
+import React, { Component } from "react";
+
+function Form(props){
+    // Notice how each input has a `value`, `name`, and `onChange` prop
+    return (
+      <div className = "containter">
+        <form className="form">
+          Name:
+          <br/>  
+          <input
+            value={props.name}
+            name="name"
+            onChange={props.handleInputChange}
+            type="text"
+            placeholder="Name"
+          />
+          <br/><br/>
+          Email:
+          <br/>
+          <input
+            value={props.lastName}
+            name="email"
+            onChange={props.handleInputChange}
+            type="text"
+            placeholder="Email"
+          />
+          <br/><br/>
+          Message:
+          <br/>
+          <textarea
+            value={props.message}
+            name="message"
+            onChange={props.handleInputChange}
+            type="textarea"
+            placeholder="Enter Message"
+          />
+          <br/><br/>
+          <button onClick={props.handleSubmit}>Submit</button>
+        </form>
+      </div>
+    );
+}
+export default Form;
+
+
