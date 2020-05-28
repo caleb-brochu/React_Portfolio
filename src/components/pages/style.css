@@ -1,0 +1,304 @@
+*
+{
+    box-sizing: border-box;
+}
+.fonts{
+    font-family: 'Yesteryear', cursive;
+    font-family: 'Arizonia', cursive;
+    font-family: 'Asap', sans-serif;
+}
+
+body
+{
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.background 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: whitesmoke;
+    /* background-image: url(../images/qbkls/dark-honeycomb.png);
+    background-repeat: repeat-x repeat-y; */
+    padding: 100%;
+    margin: 0;
+}
+.col-3, .col-9{
+    margin:0;
+}
+.wrapper
+{  
+    background: none;
+    vertical-align: center;
+}
+
+#headerblock
+{ 
+    top: 0;
+    height: 50px;
+    max-width: 960px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+    #logo {
+     width: 100%;
+     text-align: center;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+     .text-align{
+        text-align: center !important;
+    }
+  }
+  
+@media screen and (max-width: 768px) {
+    .img-profile{
+      width: 100%;
+      padding: 20px;
+  }
+}
+
+.text-align
+{
+    text-align: right;
+}
+.img-profile 
+{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 4px whitesmoke;
+    border-radius: 5px;
+    
+}
+
+.img-responsive 
+{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.img-responsive > img
+{
+    width: 100%;
+}
+.jumbotron
+{
+    margin: 0 auto;
+    padding: 0;
+}
+.jumbobackground
+{
+    background-color: #2e2d2d;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 18pt;
+    line-height: 20pt;
+    font-family: 'Asap', sans-serif;
+    margin-top: 25px;
+    padding: 20px;
+    box-shadow: 0 0.5em 1em -0.125em rgba(7, 7, 7, 0.1), 0 0 0 1px rgba(10,10,10,.08);
+}
+
+.card-title
+{
+    display: inline;
+}
+.img-fluid
+{
+    display: inline-block;
+}
+.nav-link
+{
+    padding: 0;
+    font-family: 'Asap', sans-serif;
+    color:  #666666;
+    font-size: 18pt;
+    line-height: 20pt;
+    box-sizing: border-box;
+}
+
+.links li
+{
+   display: inline-block; 
+   padding-left: 5px;
+   padding-top: 30px;
+   border-bottom: #777777;
+}
+
+#logo
+{
+    background:none;
+    color:  #666666;
+    margin: 0;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Yesteryear', cursive;
+    font-size: 30pt;
+}
+
+
+#aboutmetitle
+{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom:#cccccc 2px solid;
+}
+
+p
+{
+    color: whitesmoke;
+    font-size: 16pt;
+    line-height: 20pt;
+    font-family: 'Asap', sans-serif;
+}
+
+a
+{
+    font-family: 'Asap', sans-serif;
+    color:  #666666;
+    border-bottom: 1px #777777; 
+    text-decoration: none;
+}
+
+h1
+{
+    font-size: 22pt;
+    font-family: 'Asap', sans-serif;
+}
+
+
+input{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+#namefield
+{
+    width: 100%;
+    padding: 0px 20px;
+    line-height: 24pt;
+    font-family: 'Asap', sans-serif;
+    font-size: 16pt;
+    margin-bottom: 10px; 
+}
+
+#emailfield
+{
+    width: 100%;
+    padding: 0px 20px;
+    line-height: 24pt;
+    font-family: 'Asap', sans-serif;
+    font-size: 16pt;
+    margin-bottom: 10px; 
+}
+
+#messagefield
+{
+    width: 100%;
+    height: 250px;;
+    padding: 0px 20px;
+    line-height: 24pt;
+    font-family: 'Asap', sans-serif;
+    font-size: 16pt;
+    margin-bottom: 10px; 
+}
+
+#submit
+{
+    width: 150px;
+    height: 50px;
+    padding: 0px 20px;
+    line-height: 24pt;
+    font-family: 'Asap', sans-serif;
+    font-size: 16pt;
+    margin-bottom: 10px; 
+    background-color: rgb(3, 3, 124);
+    color: whitesmoke;
+    border:none;
+    border-radius: 5px;
+}
+
+
+.block {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+   
+  }
+  
+.block .banner {
+    background: #4aaaa5;
+    bottom: 30px;
+    color: white;
+    padding: 10px 15px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+ }
+ .content{
+    background-color: #2e2d2d;
+    margin-top: 20px;
+    box-shadow: 0 0.5em 1em -0.125em rgba(7, 7, 7, 0.1), 0 0 0 1px rgba(10,10,10,.08);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+ .social-logo{
+     font-size: 48px;
+     vertical-align: middle;
+     margin-right: 10px;
+     color: whitesmoke;
+     margin-bottom: 10px;
+     
+ }
+ .card-content{
+     display: inline;
+     font-size: 18px;
+     vertical-align: center;
+     color: whitesmoke;
+ }
+
+ @media screen and (max-width: 992px) {
+    .card-content {
+     display: block;
+     text-align: center;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .card-content {
+     display: none;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .content {
+     text-align: center;
+    }
+  }
+  .social-logo:hover {
+    color: rgb(10, 10, 255);
+  }
+  #submit:hover {
+    background-color: rgb(10, 10, 255);
+  }
+  .carousel-inner > .item > img {
+    margin: 0 auto;
+  }
+
+  .project_links{
+      align-items: center;
+      margin: 20px auto;
+  }
+  
+  .carousel img {
+
+    margin: 50px auto;
+
+}
