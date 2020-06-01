@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.ba60d4b0.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.df1f0c05.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.df1f0c05.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.8167d654.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.8167d654.js.map",
+    "static/js/2.6d38ab3e.chunk.js": "/React_Portfolio/static/js/2.6d38ab3e.chunk.js",
+    "static/js/2.6d38ab3e.chunk.js.map": "/React_Portfolio/static/js/2.6d38ab3e.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "precache-manifest.cd0ad9d303d3f9964302eee99db9a39e.js": "/React_Portfolio/precache-manifest.cd0ad9d303d3f9964302eee99db9a39e.js",
+    "service-worker.js": "/React_Portfolio/service-worker.js",
+    "static/css/main.ba60d4b0.chunk.css.map": "/React_Portfolio/static/css/main.ba60d4b0.chunk.css.map",
+    "static/js/2.6d38ab3e.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.6d38ab3e.chunk.js.LICENSE.txt",
+    "static/media/Burgers.JPG": "/React_Portfolio/static/media/Burgers.6740a958.JPG",
+    "static/media/DayPlanner.png": "/React_Portfolio/static/media/DayPlanner.336f51a8.png",
+    "static/media/Password-generator.JPG": "/React_Portfolio/static/media/Password-generator.156bbc6a.JPG",
+    "static/media/Weather_Dashboard.JPG": "/React_Portfolio/static/media/Weather_Dashboard.c339c31c.JPG",
+    "static/media/forage.JPG": "/React_Portfolio/static/media/forage.d740751d.JPG",
+    "static/media/head_shot.jfif": "/React_Portfolio/static/media/head_shot.dba5c279.jfif",
+    "static/media/hiking.JPG": "/React_Portfolio/static/media/hiking.55d37469.JPG",
+    "static/media/suitcase.JPG": "/React_Portfolio/static/media/suitcase.adde369a.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8167d654.js",
+    "static/js/2.6d38ab3e.chunk.js",
+    "static/css/main.ba60d4b0.chunk.css",
+    "static/js/main.df1f0c05.chunk.js"
+  ]
+}
