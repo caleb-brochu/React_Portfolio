@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link }  from 'react-router-dom';
-import './style.css'
+import '../style.css'
 import profile from '../images/head_shot.jfif'
 
 class About extends Component{

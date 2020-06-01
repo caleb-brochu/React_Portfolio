@@ -1,8 +1,9 @@
 import React from "react";
+import './style.css'
 
 function NavTabs(props) {
   return (
-    <div className = "bg-dark header">
+    <div className = "header ">
       <div className = "navbrand">
         <h1 className = "text-center">Caleb Brochu</h1> 
         
@@ -17,7 +18,8 @@ function NavTabs(props) {
             About
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item bullet">&#8226;</li>
+        <li className="nav-item ">
           <a
             href="#portfolio"
             onClick={() => props.handlePageChange("Portfolio")}
@@ -26,7 +28,8 @@ function NavTabs(props) {
             Portfolio
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item bullet">&#8226;</li>
+        <li className="nav-item ">
           <a
             href="#contact"
             onClick={() => props.handlePageChange("Contact")}

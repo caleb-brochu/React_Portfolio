@@ -8,11 +8,13 @@ function Form(props){
           Name:
           <br/>  
           <input
+          
             value={props.name}
             name="name"
             onChange={props.handleInputChange}
             type="text"
             placeholder="Name"
+            id = "namefield"
           />
           <br/><br/>
           Email:
@@ -23,6 +25,7 @@ function Form(props){
             onChange={props.handleInputChange}
             type="text"
             placeholder="Email"
+            id = "emailfield"
           />
           <br/><br/>
           Message:
@@ -33,9 +36,15 @@ function Form(props){
             onChange={props.handleInputChange}
             type="textarea"
             placeholder="Enter Message"
+            id = "messagefield"
           />
           <br/><br/>
-          <button onClick={props.handleSubmit}>Submit</button>
+          <button 
+          
+          onClick={props.handleSubmit}
+          id = "submit"
+          
+          >Submit</button>
         </form>
       </div>
     );
